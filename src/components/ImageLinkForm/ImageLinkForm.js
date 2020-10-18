@@ -8,8 +8,11 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit}) => {
 			<p className='f3'>
 				{'put a URL of a photo to detect the faces in it'}
 			</p>
+			<p className='f6'>
+				{`TRY this (copy => paste => send) 👇 `}
+			</p>
 			<p className='f7'>
-				{`copy & paste => https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg`}
+				{`https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg`}
 			</p>
 			<div className='center'>
 				<div className='form center pa4 br3 shadow-5'>
